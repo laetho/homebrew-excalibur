@@ -1,0 +1,30 @@
+name: Test Homebrew cask
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Add checked-out tap
+        run: brew tap laetho/excalibur "$GITHUB_WORKSPACE"
+
+      - name: Audit cask
+        run: brew audit --cask --strict laetho/excalibur/excalibur
+
+      - name: Install cask
+        run: brew install --cask laetho/excalibur/excalibur
+
+      - name: Verify application bundle
+        run: test -x "/Applications/Excalibur.app/Contents/MacOS/Excalibur"
+
+      - name: Uninstall cask
+        run: brew uninstall --cask excalibur
