@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1200 1000"
+   width="1200"
+   height="1000"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="excalibur-dark.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs15" />
+  <sodipodi:namedview
+     id="namedview15"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.5745"
+     inkscape:cx="219.32115"
+     inkscape:cy="408.18103"
+     inkscape:window-width="1268"
+     inkscape:window-height="1402"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g15" />
+  <title
+     id="title">Excalibur behind a whiteboard</title>
+  <desc
+     id="desc">Monochrome line art of the legendary sword behind a whiteboard on an easel, with transparent background.</desc>
+  <!-- No background rectangle: all unpainted pixels are transparent. -->
+  <g
+     fill="none"
+     stroke="#ffffff"
+     stroke-width="16"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="g15">
+    <!-- Sword pommel and wrapped grip -->
+    <circle
+       cx="600"
+       cy="67"
+       r="49"
+       id="circle1" />
+    <path
+       d="M572 113 L562 270 M628 113 L638 270"
+       id="path1" />
+    <path
+       d="m 570.87032,146.74064 55.25936,-25.64839 m -55.77807,68.03743 58.47258,-32.03743 m -62.86597,73.25501 66.86597,-34.17145 M 563,269.15394 l 71.38903,-30.4133"
+       id="path2"
+       sodipodi:nodetypes="cccccccc"
+       style="fill:#1e1e1e;fill-opacity:1;fill-rule:nonzero" />
+    <!-- Excalibur guard; symmetric sweeping quillons -->
+    <path
+       d="M561 270 C514 294 453 291 414 260 C383 281 359 326 369 358 C409 319 482 301 538 321 C565 331 586 352 600 370 C614 352 635 331 662 321 C718 301 791 319 831 358 C841 326 817 281 786 260 C747 291 686 294 639 270"
+       id="path3" />
+    <path
+       d="M369 358 C411 320 483 300 539 320 C565 331 586 351 600 370 C614 351 635 331 661 320 C717 300 789 320 831 358"
+       id="path4" />
+    <path
+       d="m 600,370 0.12745,47.24176"
+       id="path5"
+       sodipodi:nodetypes="cc" />
+    <!-- Central diamond on crossguard -->
+    <path
+       d="M600 265 L622 300 L600 340 L578 300 Z"
+       fill="#ffffff"
+       stroke="none"
+       id="path6" />
+    <!-- Radiating lines -->
+    <!-- Sword blade, visible below the whiteboard; pointed tip -->
+    <path
+       d="M560 794 L560 876 Q560 885 565 895 L600 955 L635 895 Q640 885 640 876 L640 794"
+       id="path8" />
+    <path
+       d="M 600,794 V 934.22193"
+       id="path9"
+       sodipodi:nodetypes="cc" />
+    <!-- Whiteboard/easel frame is in front of the sword -->
+    <path
+       d="M553 401 H338 Q310 401 310 430 V757 M647 401 H862 Q890 401 890 430 V757"
+       id="path10" />
+    <path
+       d="M 605.61761,440.69229 350,441 V 745 H 850 V 441 l -254.07908,-0.30771"
+       id="path11"
+       sodipodi:nodetypes="cccccc"
+       style="fill:#1e1e1e;fill-opacity:0" />
+    <!-- Upper portion of blade is covered by whiteboard surface -->
+    <path
+       d="M310 757 H890"
+       id="path12" />
+    <!-- Small eraser at the bottom right -->
+    <path
+       d="M718 745 V717 Q718 707 728 707 H813 Q823 707 823 717 V745"
+       id="path13" />
+    <!-- Full width marker tray -->
+    <rect
+       x="296"
+       y="751"
+       width="608"
+       height="35"
+       rx="17"
+       fill="#1e1e1e"
+       id="rect13"
+       style="fill:#000000;fill-opacity:0" />
+    <!-- Two angled easel legs -->
+    <path
+       d="m 554.3342,400.86423 3.91036,-66.11836 m 87.13055,66.17406 -3.41254,-67.24369"
+       id="path2-6"
+       sodipodi:nodetypes="cccc" />
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Excalibur behind a whiteboard</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

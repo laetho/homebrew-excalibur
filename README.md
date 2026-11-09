@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="excalibur.svg#gh-light-mode-only" alt="Excalibur logo" width="180">
+  <img src="excalibur-dark.svg#gh-dark-mode-only" alt="Excalibur logo" width="180">
+</p>
+
 # homebrew-excalibur
 
 Homebrew tap for [Excalibur](https://github.com/laetho/excalibur), the local and
