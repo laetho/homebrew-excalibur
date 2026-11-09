@@ -17,6 +17,11 @@ jobs:
       - name: Add checked-out tap
         run: brew tap laetho/excalibur "$GITHUB_WORKSPACE"
 
+      # Homebrew requires explicit trust before loading casks from a
+      # third-party tap in non-interactive environments such as Actions.
+      - name: Trust checked-out tap
+        run: brew trust laetho/excalibur
+
       - name: Audit cask
         run: brew audit --cask --strict laetho/excalibur/excalibur
 
