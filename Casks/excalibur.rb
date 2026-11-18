@@ -1,6 +1,6 @@
 cask "excalibur" do
-  version "0.6.0"
-  sha256 "1f99874c4c53c0b75b08d6c65537556a17ae2c10e71511d6aff2bad7c6bda8a6"
+  version "0.6.1"
+  sha256 "cf295dcfb6a76483ddb447e93b7a389392bc3a57a66ef89a3b4e1912a11f5880"
 
   url "https://github.com/laetho/homebrew-excalibur/releases/download/v#{version}/Excalibur-macos-universal.zip"
   name "Excalibur"
